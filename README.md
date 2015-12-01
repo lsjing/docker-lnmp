@@ -8,7 +8,7 @@ How it's work
 
 1. Download project:
 
-    ``$ git clone https://vukor@github.com/vukor/docker-lnmp.git ~/docker``
+    ``$ git clone https://github.com/lsjing/docker-lnmp.git ~/docker``
 
 2. Install docker on your system
 
@@ -32,7 +32,7 @@ How it's work
  
     ``$ docker run --name docker-data -i -t vukor/docker-data``
 
-6. Set MYSQL_LOGIN / MYSQL_PASSWORD for MySQL app in docker-lnmp/scripts/cmd_start.sh
+6. Set MYSQL_LOGIN / MYSQL_PASSWORD for MySQL app in docker-lnmp/scripts/cmd_start.sh, default user:test,pass:test
 
 7. Run container:
 
